@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   canary: true,
+0 silly argv   c: true,
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'lerna'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/lucaalexandru/workspace/specula/lerna-monorepo
+3 info canary enabled
+4 verbose session c949fa35d072c649
+5 verbose user-agent lerna/3.22.1/node@v12.18.0+x64 (darwin)
+6 error Error: Command failed: git describe --always --long --dirty --first-parent
+6 error fatal: bad revision 'HEAD'
+6 error
+6 error     at makeError (/Users/lucaalexandru/.nvm/versions/node/v12.18.0/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+6 error     at /Users/lucaalexandru/.nvm/versions/node/v12.18.0/lib/node_modules/lerna/node_modules/execa/index.js:278:16
